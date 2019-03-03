@@ -2,7 +2,7 @@ package edu.dmacc.codedsm.hw8;
 
 import java.util.Random;
 
-public class ArrayFiller {
+public class arrayFiller {
 
     public static String[] validStrings = new String[5];
     public static int i = 0;
