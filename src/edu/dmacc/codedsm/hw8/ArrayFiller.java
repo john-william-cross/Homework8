@@ -8,8 +8,7 @@ public class ArrayFiller {
     public static int i = 0;
 
     public static void main(String[] args) {
-
-        while(i < 5) {
+        while (i < 5) {
             addString(createRandomAlphaNumericString(5));
         }
         for (int j = 0; j < 5; j++) {
@@ -41,8 +40,7 @@ public class ArrayFiller {
     public static void addString(String value) {
         if (value.matches(".*\\d+.*")) {
             System.out.println("Value with numbers encountered. BOOOOOOO!");
-        }
-        else {
+        } else {
             if (value.matches("([AEIOU]).*")) {
                 validStrings[i] = value;
                 i++;
